@@ -7,9 +7,8 @@ exports.test = base.extend({
   },
 
   start: async ({ createPO }, use) => {
-    const starter = async (POClass, path = '/') => {
+    const starter = async (POClass) => {
       const po = createPO(POClass);
-      await po.goto(path);
       return po;
     };
 
