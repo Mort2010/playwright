@@ -5,9 +5,9 @@ class HomePage extends BasePage {
   constructor(page) {
     super(page);
 
-    this.usernameInput = page.locator('#username');
-    this.passwordInput = page.locator('#password');
-    this.loginButton = page.locator('button[type="submit"]');
+    this.homeButton = page.getByRole('link', { name: 'Home' })
+    this.catalogButton = page.getByRole('link', { name: 'Catalog' })
+
   }
 
   async login(username, password) {
