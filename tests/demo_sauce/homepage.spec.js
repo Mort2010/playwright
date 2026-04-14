@@ -1,5 +1,5 @@
 // Import the basics
-const { test } = require('../../fixtures/pageFactory')
+const { test } = require('../../fixtures/pageFactory');
 const { expect } = require('@playwright/test');
 const { HomePage } = require('../../pages/demo_sauce/HomePage');
 
