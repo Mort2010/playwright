@@ -5,3 +5,6 @@ When creating something along with the what the why sometimes matters more. The 
 
 ### Fixture PageFactory
 As I intend this framework to work over multiple sites doing 1 fixture per site just to load the page would be annoying. So allowing it to flex by factory made more sense.
+
+### POM (Page Object Model)
+Recommended and fairly standard for many projects helps keep things cleaner.
