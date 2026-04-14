@@ -5,8 +5,8 @@ class HomePage extends BasePage {
   constructor(page) {
     super(page);
 
-    this.homeButton = page.getByRole('link', { name: 'Home' })
-    this.catalogButton = page.getByRole('link', { name: 'Catalog' })
+    this.homeButton = page.getByRole('link', { name: 'Home' });
+    this.catalogButton = page.getByRole('link', { name: 'Catalog' });
 
   }
 
